@@ -1,6 +1,5 @@
 # t-gomp
 
-A customized, OLED-friendly, mechanical/Gundam-inspired theme for Oh My Posh, designed for PowerShell 7 and Windows Terminal.
 
 ## Prerequisites
 
@@ -24,10 +23,10 @@ PowerShell 7 is the modern, cross-platform version of PowerShell.
 
 ### 3. JetBrainsMono Nerd Font
 A Nerd Font is required to correctly render the powerline symbols and icons in the theme.
-- **Install using the provided script:**
-  Run the included `install-font.ps1` script from an elevated PowerShell window or your normal user session:
+- **Install using oh-my-posh:**
+  Run the following command and select `JetBrainsMono`:
   ```powershell
-  .\install-font.ps1
+  oh-my-posh font install
   ```
 - After installing, **set Windows Terminal to use the font**:
   1. Open Windows Terminal settings (`Ctrl + ,`)
