@@ -28,11 +28,7 @@
             "fetch_upstream_icon": true
           },
           "template": "[<#ffffff>{{ .UpstreamIcon }} {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} <#ffffff>\uf044</> {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} <#ffffff>\uf046</> {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} <#ffffff>\ueb4b</> {{ .StashCount }}{{ end }}]",
-          "foreground": "#40a9ff",
-          "foreground_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}#ff4d4f{{ end }}",
-            "{{ if and (gt .Ahead 0) (eq .Behind 0) }}#52c41a{{ end }}"
-          ],
+          "foreground": "#ffa5d8",
           "type": "git",
           "style": "plain"
         }
