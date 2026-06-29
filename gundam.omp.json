@@ -17,7 +17,7 @@
           "options": {
             "windows": "\uf17a"
           },
-          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}  \ue0bd ",
+          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}  \u276f ",
           "foreground": "#7eb8da",
           "type": "os",
           "style": "plain"
